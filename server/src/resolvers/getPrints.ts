@@ -10,7 +10,7 @@ export const getPrints = async (_: unknown, args: GetPrintArgs) => {
   const { page } = args
   const params = {
     apikey: process.env.API_KEY || '',
-    page: page ? page.toString() : '1',
+    page: page && page > 0 ? page.toString() : '1',
     classification: 'Prints',
     sort: 'rank',
     sortorder: 'desc',

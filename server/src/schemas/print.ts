@@ -21,7 +21,7 @@ export const Print = gql`
     description: String
     title: String
     colors: [Color]
-    dated: Int
+    dated: String
     department: String
     dateend: Int
     people: [People]
