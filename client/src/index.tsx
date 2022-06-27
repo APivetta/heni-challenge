@@ -1,13 +1,33 @@
-import React from 'react'
+import { PrintsPage } from './pages/prints/PrintsPage'
 import ReactDOM from 'react-dom/client'
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from 'react-router-dom'
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider
+} from '@apollo/client'
+
 import './index.css'
-import App from './App'
+
+const client = new ApolloClient({
+  uri: 'http://localhost:4000/graphql',
+  cache: new InMemoryCache()
+})
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root')!
 )
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <ApolloProvider client={client}>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<PrintsPage />} />
+      </Routes>
+    </BrowserRouter>
+  </ApolloProvider>
 )
