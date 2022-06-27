@@ -1,8 +1,6 @@
+import 'dotenv/config'
 import { createApp } from './app'
 
-const port = 4000
-const app = createApp()
+if (!process.env.API_KEY) throw new Error('API_KEY not set')
 
-app.listen(port, () => {
-  console.log(`HENI challenge - Prints server listening on port ${port}`)
-})
+createApp()
