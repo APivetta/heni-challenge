@@ -8,8 +8,6 @@ type PrintListProps = {
 
 export const PrintList = ({ prints } : PrintListProps) => (
   <div className={styles.container}>
-    <div className={styles.content}>
-      {prints.map(print => <PrintCard key={print.id} print={print} />)}
-    </div>
+    {prints.map(print => <PrintCard key={print.id} print={print} />)}
   </div>
 )

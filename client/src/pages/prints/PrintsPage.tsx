@@ -1,18 +1,31 @@
 import { useQuery } from '@apollo/client'
-import { Navigate, useParams } from 'react-router-dom'
+import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { BasePage } from '../base/BasePage'
 import { GET_PRINTS_QUERY, GetPrintsData, GetPrintsArgs } from '../../queries/getPrints'
 import { ErrorBanner } from '../../components/error-banner/ErrorBanner'
 import { PrintList } from '../../components/print-list/PrintList'
 import styles from './PrintsPage.module.css'
+import { Paginator } from '../../components/paginator/Paginator'
 
 export const PrintsPage = () => {
   const { page } = useParams()
+  const navigate = useNavigate()
   const pageNr = parseInt(page || '', 10)
 
   if (!pageNr || pageNr < 1) return <Navigate replace to='/prints/1' />
 
   const { loading, error, data } = useQuery<GetPrintsData, GetPrintsArgs>(GET_PRINTS_QUERY, { variables: { page: pageNr } })
+  const prints = data?.getPrints.records
+
+  if (prints && prints.length === 0) return <Navigate replace to='/not_found' />
+
+  const onNext = () => {
+    navigate(`/prints/${pageNr + 1}`, { replace: true })
+  }
+
+  const onPrevious = () => {
+    navigate(`/prints/${pageNr - 1}`, { replace: true })
+  }
 
   return (
     <BasePage> {
@@ -21,7 +34,21 @@ export const PrintsPage = () => {
       : loading
         ? <h2>Loading...</h2>
         : data && (
-          <PrintList prints={data.getPrints.records} />
+          <div className={styles.container}>
+            <Paginator
+              page={pageNr}
+              totalPages={data.getPrints.info.pages}
+              onNext={onNext}
+              onPrevious={onPrevious}
+            />
+            <PrintList prints={data.getPrints.records} />
+            <Paginator
+              page={pageNr}
+              totalPages={data.getPrints.info.pages}
+              onNext={onNext}
+              onPrevious={onPrevious}
+            />
+          </div>
         )
     }
     </BasePage>

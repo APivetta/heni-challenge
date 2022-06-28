@@ -1,26 +1,17 @@
-.content {
+.container {
   padding: 20px;
   display: grid;
-}
-
-.container {
   margin: auto;
-  display: flex;
-  overflow-y: scroll;
 }
 
-@media only screen and (max-width: 1024px) {
-  .content {
+@media only screen and (max-width: 899px) {
+  .container {
     grid-template-columns: 1fr;
   }
 }
 
-@media only screen and (min-width: 1025px) {
-  .content {
-    grid-template-columns: 1fr 1fr;
-  }
-
+@media only screen and (min-width: 900px) {
   .container {
-    max-width: 1025px;
+    grid-template-columns: 1fr 1fr;
   }
 }
