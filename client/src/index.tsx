@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client'
 import {
   BrowserRouter,
   Routes,
-  Route
+  Route,
+  Navigate
 } from 'react-router-dom'
 import {
   ApolloClient,
@@ -12,6 +13,7 @@ import {
 } from '@apollo/client'
 
 import './index.css'
+import { NotFoundPage } from './pages/not-found/NotFoundPage'
 
 const client = new ApolloClient({
   uri: 'http://localhost:4000/graphql',
@@ -26,7 +28,9 @@ root.render(
   <ApolloProvider client={client}>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<PrintsPage />} />
+        <Route path='/' element={<Navigate replace to='/prints/1' />} />
+        <Route path='/prints/:page' element={<PrintsPage />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   </ApolloProvider>
