@@ -1,4 +1,5 @@
 import { PrintsPage } from './pages/prints/PrintsPage'
+import { PrintPage } from './pages/print/PrintPage'
 import ReactDOM from 'react-dom/client'
 import {
   BrowserRouter,
@@ -30,6 +31,7 @@ root.render(
       <Routes>
         <Route path='/' element={<Navigate replace to='/prints/1' />} />
         <Route path='/prints/:page' element={<PrintsPage />} />
+        <Route path='/print/:id' element={<PrintPage />} />
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>

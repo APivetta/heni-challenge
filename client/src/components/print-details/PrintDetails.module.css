@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  height: 100%;
+  align-items: center;
+justify-content: center;
+}
+
+.frame {
+  background-color: #e3e3e3;
+  padding: 15px;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.detailsContainer{
+  margin-left: 50px;
+  background-color: red;
+  height: 100%;
+  width: 50vw;
+}

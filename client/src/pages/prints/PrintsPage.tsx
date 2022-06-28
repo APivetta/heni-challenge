@@ -11,12 +11,10 @@ export const PrintsPage = () => {
   const { page } = useParams()
   const navigate = useNavigate()
   const pageNr = parseInt(page || '', 10)
-
-  if (!pageNr || pageNr < 1) return <Navigate replace to='/prints/1' />
-
   const { loading, error, data } = useQuery<GetPrintsData, GetPrintsArgs>(GET_PRINTS_QUERY, { variables: { page: pageNr } })
   const prints = data?.getPrints.records
 
+  if (!pageNr || pageNr < 1) return <Navigate replace to='/prints/1' />
   if (prints && prints.length === 0) return <Navigate replace to='/not_found' />
 
   const onNext = () => {
