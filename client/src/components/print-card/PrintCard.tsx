@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { Print as PrintType } from '../../types/Print'
-import { getPrintAuthors } from '../utils/getPrintAuthor'
+import { getPrintAuthors } from '../../utils/getPrintAuthor'
 import styles from './PrintCard.module.css'
 
 type PrintsProps = {
@@ -28,7 +28,7 @@ export const PrintCard = ({ print } : PrintsProps) => {
   return (
     <div className={styles.container}>
       <div className={styles.frame}>
-        <img className={styles.image} src={primaryimageurl} />
+        <img className={styles.image} src={primaryimageurl ?? undefined} alt={title ?? undefined} />
       </div>
       <div className={styles.details}>
         <h1 className={styles.title}>{title}{authors && ` — ${authors}`}</h1>

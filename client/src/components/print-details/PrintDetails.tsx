@@ -1,5 +1,5 @@
 import { Print as PrintType } from '../../types/Print'
-import { getPrintAuthors } from '../utils/getPrintAuthor'
+import { getPrintAuthors } from '../../utils/getPrintAuthor'
 import styles from './PrintDetails.module.css'
 
 type PrintsProps = {
@@ -12,7 +12,7 @@ export const PrintDetails = ({ print } : PrintsProps) => {
   return (
     <div className={styles.container}>
       <div className={styles.frame}>
-        <img className={styles.image} src={print.primaryimageurl} />
+        <img className={styles.image} src={print.primaryimageurl ?? undefined} alt={print.title ?? undefined} />
       </div>
       <div className={styles.detailsContainer}>
         <h1>{print.title}</h1>
@@ -28,7 +28,7 @@ export const PrintDetails = ({ print } : PrintsProps) => {
         {print.contact && <p><strong>Contact:</strong> {print.contact}</p>}
         {print.creditline && <p><strong>Credit:</strong> {print.creditline}</p>}
 
-        {print.people?.length > 0 && (
+        {print.people && print.people?.length > 0 && (
           <>
             <hr />
             <h2>People</h2>
@@ -36,12 +36,12 @@ export const PrintDetails = ({ print } : PrintsProps) => {
           </>
         )}
 
-        {print.colors?.length > 0 && (
+        {print.colors && print.colors?.length > 0 && (
           <>
             <hr />
             <h2>Colors</h2>
             <div className={styles.colorContainer}>
-              {print.colors.map(({ color }, i) => <div key={i} className={styles.color} style={{ backgroundColor: color }} />)}
+              {print.colors.map(({ color }, i) => <div key={i} className={styles.color} style={{ backgroundColor: color ?? undefined }} />)}
             </div>
           </>
         )}
