@@ -47,3 +47,9 @@ npm run test:cypress (with the app running)
 cd ./server
 npm test
 ```
+
+## Notes to reviewer
+
+### If you had more time, would you do anything different/go further?
+
+This is the first time I made a GraphQL application so I had to learn how to use Apollo from scratch. If I had more time, I would have liked to learn more about good practices or common anti-patterns while developing the app. For the same reason I feel that I could have added more tests in the backend but I wasn't sure where/how.
