@@ -13,13 +13,13 @@ describe('getPrints resolver', () => {
     process.env = ENV
   })
 
-  test('It should throw error if HARVARD_URL is not set', () => {
+  test('Should throw error if HARVARD_URL is not set', () => {
     process.env.HARVARD_URL = ''
 
     expect(() => getPrint(null, { id: 1 })).rejects.toThrow('HARVARD_URL not set')
   })
 
-  test('It should call the correct URL', async () => {
+  test('Should call the correct URL', async () => {
     process.env.HARVARD_URL = 'http://test.hardvard.com'
     const mockGet = jest.fn().mockResolvedValue({ data: null })
     axios.get = mockGet

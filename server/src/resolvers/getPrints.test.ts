@@ -13,13 +13,13 @@ describe('getPrints resolver', () => {
     process.env = ENV
   })
 
-  test('It should throw error if HARVARD_URL is not set', () => {
+  test('Should throw error if HARVARD_URL is not set', () => {
     process.env.HARVARD_URL = ''
 
     expect(() => getPrints(null, { page: 1 })).rejects.toThrow('HARVARD_URL not set')
   })
 
-  test('It should call the correct URL', async () => {
+  test('Should call the correct URL', async () => {
     process.env.HARVARD_URL = 'http://test.hardvard.com'
     const mockGet = jest.fn().mockResolvedValue({ data: null })
     axios.get = mockGet
@@ -31,7 +31,7 @@ describe('getPrints resolver', () => {
     expect(calledUrl.pathname).toBe('/object')
   })
 
-  test('It should default to first page is page parameter is not provided', async () => {
+  test('Should default to first page is page parameter is not provided', async () => {
     process.env.HARVARD_URL = 'http://test.hardvard.com'
     const mockGet = jest.fn().mockResolvedValue({ data: null })
     axios.get = mockGet
@@ -42,7 +42,7 @@ describe('getPrints resolver', () => {
     expect(calledUrl.searchParams.get('page')).toBe('1')
   })
 
-  test('It should default to first page is page parameter is negative', async () => {
+  test('Should default to first page is page parameter is negative', async () => {
     process.env.HARVARD_URL = 'http://test.hardvard.com'
     const mockGet = jest.fn().mockResolvedValue({ data: null })
     axios.get = mockGet

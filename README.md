@@ -29,3 +29,21 @@ From this repository root folder run the following command to start both Backend
 ```
 API_KEY=your_secret_key docker-compose up
 ```
+
+## How to test?
+### Frontend
+Unit tests
+```
+cd ./client
+npm test
+```
+E2E tests (uses cypress)
+```
+cd ./client
+npm run test:cypress
+```
+### Backend
+```
+cd ./server
+npm test
+```
