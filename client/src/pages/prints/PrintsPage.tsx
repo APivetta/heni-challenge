@@ -14,15 +14,15 @@ export const PrintsPage = () => {
   const { loading, error, data } = useQuery<GetPrintsData, GetPrintsArgs>(GET_PRINTS_QUERY, { variables: { page: pageNr } })
   const prints = data?.getPrints.records
 
-  if (!pageNr || pageNr < 1) return <Navigate replace to='/prints/1' />
-  if (prints && prints.length === 0) return <Navigate replace to='/not_found' />
+  if (!pageNr || pageNr < 1) return <Navigate to='/prints/1' />
+  if (prints && prints.length === 0) return <Navigate to='/not_found' />
 
   const onNext = () => {
-    navigate(`/prints/${pageNr + 1}`, { replace: true })
+    navigate(`/prints/${pageNr + 1}`, { replace: false })
   }
 
   const onPrevious = () => {
-    navigate(`/prints/${pageNr - 1}`, { replace: true })
+    navigate(`/prints/${pageNr - 1}`, { replace: false })
   }
 
   return (

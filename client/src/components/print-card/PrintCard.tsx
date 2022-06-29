@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { Print as PrintType } from '../../types/Print'
+import { getPrintAuthors } from '../utils/getPrintAuthor'
 import styles from './PrintCard.module.css'
 
 type PrintsProps = {
@@ -14,19 +15,16 @@ export const PrintCard = ({ print } : PrintsProps) => {
     technique,
     century,
     culture,
-    people,
     rank,
     id
   } = print
 
   const onMoreDetails = () => {
-    navigate(`/print/${id}`, { replace: true })
+    navigate(`/print/${id}`, { replace: false })
   }
 
-  const authors = people
-    .filter(({ role, name }) => role === 'Artist' && name)
-    .map(artist => artist.name)
-    .join(', ')
+  const authors = getPrintAuthors(print)
+
   return (
     <div className={styles.container}>
       <div className={styles.frame}>

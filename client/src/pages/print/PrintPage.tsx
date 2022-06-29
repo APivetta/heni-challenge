@@ -10,12 +10,12 @@ export const PrintPage = () => {
   const { id } = useParams()
   const idNr = parseInt(id || '', 10)
 
-  if (!idNr) return <Navigate replace to='/not_found' />
+  if (!idNr) return <Navigate to='/not_found' />
 
   const { loading, error, data } = useQuery<GetPrintData, GetPrintArgs>(GET_PRINT_QUERY, { variables: { id: idNr } })
   const print = data?.getPrint
 
-  // if (prints && prints.length === 0) return <Navigate replace to='/not_found' />
+  if (print && !print.id) return <Navigate to='/not_found' />
 
   return (
     <BasePage> {

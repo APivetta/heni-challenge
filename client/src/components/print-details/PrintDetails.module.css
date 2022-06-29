@@ -8,7 +8,7 @@ justify-content: center;
 .frame {
   background-color: #e3e3e3;
   padding: 15px;
-  width: 40vw;
+  width: 50vw;
   height: 80vh;
   display: flex;
   align-items: center;
@@ -21,8 +21,21 @@ justify-content: center;
 }
 
 .detailsContainer{
-  margin-left: 50px;
-  background-color: red;
+  margin-left: 100px;
   height: 100%;
-  width: 50vw;
+  width: 40vw;
+  text-align: start;
+}
+
+.color{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.colorContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px
 }

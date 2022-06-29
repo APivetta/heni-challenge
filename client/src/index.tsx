@@ -29,7 +29,7 @@ root.render(
   <ApolloProvider client={client}>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Navigate replace to='/prints/1' />} />
+        <Route path='/' element={<Navigate to='/prints/1' />} />
         <Route path='/prints/:page' element={<PrintsPage />} />
         <Route path='/print/:id' element={<PrintPage />} />
         <Route path='*' element={<NotFoundPage />} />
