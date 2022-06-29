@@ -41,7 +41,7 @@ export const PrintDetails = ({ print } : PrintsProps) => {
             <hr />
             <h2>Colors</h2>
             <div className={styles.colorContainer}>
-              {print.colors.map(({ color }, i) => <div key={i} className={styles.color} style={{ backgroundColor: color ?? undefined }} />)}
+              {print.colors.map(({ color }, i) => <div key={i} data-testid={`color-${color}`} className={styles.color} style={{ backgroundColor: color ?? undefined }} />)}
             </div>
           </>
         )}

@@ -127,5 +127,5 @@ export const printFixture : Print = {
   century: '18th century',
   datebegin: 1737,
   culture: 'British',
-  dimensions: 'plate: 32.8 × 22.5 cm (12 15/16 × 8 7/8 in.)'
+  dimensions: 'plate: 32.8 × 22.5 cm (12 15/16 × 8 7/8 in.)\r\nsheet: 33.5 × 23.2 cm (13 3/16 × 9 1/8 in.)'
 }
