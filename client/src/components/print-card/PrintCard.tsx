@@ -26,7 +26,7 @@ export const PrintCard = ({ print } : PrintsProps) => {
   const authors = getPrintAuthors(print)
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid='print-card'>
       <div className={styles.frame}>
         <img className={styles.image} src={primaryimageurl ?? undefined} alt={title ?? undefined} />
       </div>

@@ -40,7 +40,7 @@ npm test
 E2E tests (uses cypress)
 ```
 cd ./client
-npm run test:cypress
+npm run test:cypress (with the app running)
 ```
 ### Backend
 ```

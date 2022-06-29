@@ -1,0 +1,1474 @@
+{
+  "data": {
+    "getPrints": {
+      "info": {
+        "totalrecordsperquery": 10,
+        "totalrecords": 632,
+        "pages": 64,
+        "page": 1,
+        "__typename": "Info"
+      },
+      "records": [
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Gift of Belinda L. Randall from the collection of John Witt Randall",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 8,
+          "rank": 252067,
+          "id": 248659,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2006-02-10",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 70282,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": null,
+              "renditionnumber": "INV034167",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV034167_dynmc",
+              "alttext": null,
+              "width": 711,
+              "publiccaption": null,
+              "height": 1024,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": "Goodwin 136; John Chaloner Smith 62",
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV034167_dynmc",
+          "lastupdate": "2022-06-29T05:32:47-0400",
+          "technique": "Mezzotint",
+          "edition": null,
+          "description": null,
+          "title": "Charles Erskine",
+          "colors": [
+            {
+              "color": "#191919",
+              "spectrum": "#1eb264",
+              "hue": "Grey",
+              "percent": 0.7100641025641026,
+              "css3": "#000000",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8c8af",
+              "spectrum": "#b55592",
+              "hue": "Green",
+              "percent": 0.12519230769230769,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8af96",
+              "spectrum": "#e66c64",
+              "hue": "Brown",
+              "percent": 0.06173076923076923,
+              "css3": "#d2b48c",
+              "__typename": "Color"
+            },
+            {
+              "color": "#e1c8c8",
+              "spectrum": "#c15689",
+              "hue": "Orange",
+              "percent": 0.04141025641025641,
+              "css3": "#d8bfd8",
+              "__typename": "Color"
+            },
+            {
+              "color": "#af967d",
+              "spectrum": "#c25687",
+              "hue": "Brown",
+              "percent": 0.021346153846153845,
+              "css3": "#bc8f8f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b3232",
+              "spectrum": "#4ab851",
+              "hue": "Red",
+              "percent": 0.01942307692307692,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#967d64",
+              "spectrum": "#b65590",
+              "hue": "Brown",
+              "percent": 0.01173076923076923,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d644b",
+              "spectrum": "#b25593",
+              "hue": "Yellow",
+              "percent": 0.009102564102564102,
+              "css3": "#696969",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1737",
+          "department": "Department of Prints",
+          "dateend": 1737,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": null,
+              "gender": "male",
+              "displaydate": "c. 1729 - 1765",
+              "prefix": null,
+              "culture": "British",
+              "displayname": "James McArdell",
+              "alphasort": "McArdell, James",
+              "name": "James McArdell",
+              "personid": 32221,
+              "deathplace": null,
+              "__typename": "People"
+            },
+            {
+              "role": "Artist after",
+              "birthplace": "Devon, England",
+              "gender": "unknown",
+              "displaydate": "1701 - 1779",
+              "prefix": "After",
+              "culture": "British",
+              "displayname": "After Thomas Hudson",
+              "alphasort": "Hudson, Thomas",
+              "name": "Thomas Hudson",
+              "personid": 26649,
+              "deathplace": "Twickenham, England",
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/248659",
+          "century": "18th century",
+          "datebegin": 1737,
+          "culture": "British",
+          "dimensions": "plate: 32.8 × 22.5 cm (12 15/16 × 8 7/8 in.)\r\nsheet: 33.5 × 23.2 cm (13 3/16 × 9 1/8 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Gift of Belinda L. Randall from the collection of John Witt Randall",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 7,
+          "rank": 251495,
+          "id": 213068,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2009-04-01",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 338705,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": null,
+              "renditionnumber": "INV208057",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV208057_dynmc",
+              "alttext": null,
+              "width": 1024,
+              "publiccaption": null,
+              "height": 858,
+              "__typename": "Image"
+            },
+            {
+              "date": "2009-04-01",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 338704,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": null,
+              "renditionnumber": "INV208056",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV208056_dynmc",
+              "alttext": null,
+              "width": 871,
+              "publiccaption": null,
+              "height": 1024,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 2,
+          "standardreferencenumber": null,
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV208057_dynmc",
+          "lastupdate": "2022-06-29T05:31:44-0400",
+          "technique": "Wood engraving",
+          "edition": "Volksausgabe",
+          "description": null,
+          "title": "The Bible in Pictures",
+          "colors": [
+            {
+              "color": "#e1c8c8",
+              "spectrum": "#c15689",
+              "hue": "Orange",
+              "percent": 0.3456,
+              "css3": "#d8bfd8",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8c8af",
+              "spectrum": "#b55592",
+              "hue": "Green",
+              "percent": 0.23477333333333333,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#afaf96",
+              "spectrum": "#8e5ea7",
+              "hue": "Green",
+              "percent": 0.15402666666666667,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d7d64",
+              "spectrum": "#6cbd45",
+              "hue": "Yellow",
+              "percent": 0.11242666666666666,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#96967d",
+              "spectrum": "#8e5ea7",
+              "hue": "Green",
+              "percent": 0.09930666666666667,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#64644b",
+              "spectrum": "#59ba4a",
+              "hue": "Green",
+              "percent": 0.04821333333333333,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b4b32",
+              "spectrum": "#4ab851",
+              "hue": "Green",
+              "percent": 0.005653333333333333,
+              "css3": "#556b2f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1858",
+          "department": "Department of Prints",
+          "dateend": 1858,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": null,
+              "gender": "unknown",
+              "displaydate": "1794 - 1872",
+              "prefix": "After",
+              "culture": "German",
+              "displayname": "After Julius Schnorr von Carolsfeld",
+              "alphasort": "Schnorr von Carolsfeld, Julius",
+              "name": "Julius Schnorr von Carolsfeld",
+              "personid": 28546,
+              "deathplace": null,
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/213068",
+          "century": "19th century",
+          "datebegin": 1858,
+          "culture": "German",
+          "dimensions": "sheet: 29.2 x 35.2 cm (11 1/2 x 13 7/8 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Acquisition Fund for Prints",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 8,
+          "rank": 236291,
+          "id": 4859,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2017-07-19",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 477547,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CS6 (Macintosh);",
+              "renditionnumber": "764241",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764241",
+              "alttext": null,
+              "width": 2550,
+              "publiccaption": null,
+              "height": 1848,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": "Delteil 38; Clément 30; Brugerolles E.28",
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764241",
+          "lastupdate": "2022-06-29T05:27:26-0400",
+          "technique": "Lithograph",
+          "edition": null,
+          "description": null,
+          "title": "A Paraleytic Woman",
+          "colors": [
+            {
+              "color": "#e1e1e1",
+              "spectrum": "#955ba5",
+              "hue": "Grey",
+              "percent": 0.6415432098765432,
+              "css3": "#dcdcdc",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8c8c8",
+              "spectrum": "#8c5fa8",
+              "hue": "Grey",
+              "percent": 0.16067901234567902,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#afafaf",
+              "spectrum": "#8c5fa8",
+              "hue": "Grey",
+              "percent": 0.0878395061728395,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#969696",
+              "spectrum": "#8761aa",
+              "hue": "Grey",
+              "percent": 0.05617283950617284,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d7d7d",
+              "spectrum": "#8362aa",
+              "hue": "Grey",
+              "percent": 0.03166666666666667,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#646464",
+              "spectrum": "#7866ad",
+              "hue": "Grey",
+              "percent": 0.015246913580246914,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b4b4b",
+              "spectrum": "#3db657",
+              "hue": "Grey",
+              "percent": 0.006358024691358025,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#323232",
+              "spectrum": "#2eb45d",
+              "hue": "Grey",
+              "percent": 0.0004938271604938272,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "April 1, 1821",
+          "department": "Department of Prints",
+          "dateend": 1821,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": "Rouen",
+              "gender": "male",
+              "displaydate": "1791 - 1824",
+              "prefix": null,
+              "culture": "French",
+              "displayname": "Théodore Géricault",
+              "alphasort": "Géricault, Théodore",
+              "name": "Théodore Géricault",
+              "personid": 21958,
+              "deathplace": "Paris",
+              "__typename": "People"
+            },
+            {
+              "role": "Printer",
+              "birthplace": "London",
+              "gender": "male",
+              "displaydate": "1789 - 1850",
+              "prefix": "Printed by",
+              "culture": "British",
+              "displayname": "Printed by Charles Joseph Hullmandel",
+              "alphasort": "Hullmandel, Charles Joseph",
+              "name": "Charles Joseph Hullmandel",
+              "personid": 62231,
+              "deathplace": "London",
+              "__typename": "People"
+            },
+            {
+              "role": "Publisher",
+              "birthplace": null,
+              "gender": "unknown",
+              "displaydate": "active 1819 - 1935",
+              "prefix": "Published by",
+              "culture": "British",
+              "displayname": "Published by Rodwell & Martin",
+              "alphasort": "Rodwell & Martin",
+              "name": "Rodwell & Martin",
+              "personid": 64690,
+              "deathplace": null,
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/4859",
+          "century": "19th century",
+          "datebegin": 1821,
+          "culture": "French",
+          "dimensions": "image: 22.3 x 31.7 cm (8 3/4 x 12 1/2 in.)\r\nsheet: 35.7 × 49.1 cm (14 1/16 × 19 5/16 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Gift of Marjorie B. and Martin Cohn in honor of Emily Rauh Pulitzer",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 9,
+          "rank": 235791,
+          "id": 235740,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2005-01-03",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 134468,
+              "format": "image/jpeg",
+              "description": "A network of finely drawn and scratched lines depicts a woman with her back to the viewer as she steps out of a washtub. With her right foot planted on the floor, she leans forward, holding the edge of the tub with both hands as she pulls her other leg out. We see her dark hair but her face is obscured by her shoulder. To the right, another figure stands, completely obscured by a towel she holds ready, only her dark hair and maid’s bonnet being visible. Cushioned furniture and a counter with two large empty vases crowd the small room.",
+              "technique": null,
+              "renditionnumber": "76822",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:76822_dynmc",
+              "alttext": "A nude woman stepping out of a bathtub as another figure holds up a towel",
+              "width": 1014,
+              "publiccaption": null,
+              "height": 1024,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": "Del. 39, Adh. 49, R.-S. 42",
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:76822_dynmc",
+          "lastupdate": "2022-06-29T05:32:24-0400",
+          "technique": "Drypoint and aquatint",
+          "edition": null,
+          "description": null,
+          "title": "Leaving the Bath",
+          "colors": [
+            {
+              "color": "#c8c8af",
+              "spectrum": "#b55592",
+              "hue": "Green",
+              "percent": 0.17977477477477477,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#646464",
+              "spectrum": "#7866ad",
+              "hue": "Grey",
+              "percent": 0.17702702702702702,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#afaf96",
+              "spectrum": "#8e5ea7",
+              "hue": "Green",
+              "percent": 0.16234234234234235,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#96967d",
+              "spectrum": "#8e5ea7",
+              "hue": "Green",
+              "percent": 0.13063063063063063,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d7d64",
+              "spectrum": "#6cbd45",
+              "hue": "Yellow",
+              "percent": 0.12072072072072072,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#e1e1e1",
+              "spectrum": "#955ba5",
+              "hue": "Grey",
+              "percent": 0.11382882882882883,
+              "css3": "#dcdcdc",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b4b4b",
+              "spectrum": "#3db657",
+              "hue": "Grey",
+              "percent": 0.09959459459459459,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#fafae1",
+              "spectrum": "#ed765a",
+              "hue": "Green",
+              "percent": 0.015810810810810812,
+              "css3": "#ffffe0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#323232",
+              "spectrum": "#2eb45d",
+              "hue": "Grey",
+              "percent": 0.0002702702702702703,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1879-1880",
+          "department": "Department of Prints",
+          "dateend": 1880,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": "Paris, France",
+              "gender": "male",
+              "displaydate": "1834 - 1917",
+              "prefix": null,
+              "culture": "French",
+              "displayname": "Hilaire-Germain-Edgar Degas",
+              "alphasort": "Degas, Hilaire-Germain-Edgar",
+              "name": "Hilaire-Germain-Edgar Degas",
+              "personid": 35055,
+              "deathplace": "Paris, France",
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/235740",
+          "century": "19th century",
+          "datebegin": 1879,
+          "culture": "French",
+          "dimensions": "plate: 12.7 x 12.7 cm (5 x 5 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Purchase through the generosity of Melvin R. Seiden",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 7,
+          "rank": 231227,
+          "id": 253688,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2019-07-01",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 501061,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CC 2018 (Macintosh);",
+              "renditionnumber": "770574",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:770574",
+              "alttext": null,
+              "width": 2550,
+              "publiccaption": null,
+              "height": 1769,
+              "__typename": "Image"
+            },
+            {
+              "date": "2007-07-13",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 254579,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": null,
+              "renditionnumber": "INV153467",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV153467_dynmc",
+              "alttext": null,
+              "width": 1024,
+              "publiccaption": null,
+              "height": 702,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 2,
+          "standardreferencenumber": null,
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:770574",
+          "lastupdate": "2022-06-29T05:32:57-0400",
+          "technique": "Wood engraving",
+          "edition": null,
+          "description": null,
+          "title": "Compromise with the South",
+          "colors": [
+            {
+              "color": "#c8c8af",
+              "spectrum": "#b55592",
+              "hue": "Green",
+              "percent": 0.25461538461538463,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8af96",
+              "spectrum": "#e66c64",
+              "hue": "Brown",
+              "percent": 0.1691025641025641,
+              "css3": "#d2b48c",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d7d64",
+              "spectrum": "#6cbd45",
+              "hue": "Yellow",
+              "percent": 0.15224358974358973,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#96967d",
+              "spectrum": "#8e5ea7",
+              "hue": "Green",
+              "percent": 0.1408974358974359,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b4b4b",
+              "spectrum": "#3db657",
+              "hue": "Grey",
+              "percent": 0.13967948717948717,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#64644b",
+              "spectrum": "#59ba4a",
+              "hue": "Green",
+              "percent": 0.11115384615384616,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#e1e1c8",
+              "spectrum": "#e9715f",
+              "hue": "Green",
+              "percent": 0.03230769230769231,
+              "css3": "#dcdcdc",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1864",
+          "department": "Department of Prints",
+          "dateend": 1864,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": null,
+              "gender": "unknown",
+              "displaydate": null,
+              "prefix": null,
+              "culture": null,
+              "displayname": "Unidentified Artist",
+              "alphasort": "Unidentified Artist",
+              "name": "Unidentified Artist",
+              "personid": 34147,
+              "deathplace": null,
+              "__typename": "People"
+            },
+            {
+              "role": "Artist after",
+              "birthplace": "Landau, Bavaria",
+              "gender": "male",
+              "displaydate": "1840 - 1902",
+              "prefix": "After",
+              "culture": "American",
+              "displayname": "After Thomas Nast",
+              "alphasort": "Nast, Thomas",
+              "name": "Thomas Nast",
+              "personid": 18465,
+              "deathplace": "Guayaquil, Ecuador",
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/253688",
+          "century": "19th century",
+          "datebegin": 1864,
+          "culture": "American",
+          "dimensions": "block: 23.5 × 35.4 cm (9 1/4 × 13 15/16 in.)\r\nsheet: 28.1 × 40.6 cm (11 1/16 × 16 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Gift of James Goodfriend in memory of Milton J. Goodfriend, M. D.",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 8,
+          "rank": 227644,
+          "id": 260688,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2008-06-16",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 312576,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": null,
+              "renditionnumber": "INV195978",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV195978_dynmc",
+              "alttext": null,
+              "width": 726,
+              "publiccaption": null,
+              "height": 1024,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": "John Chaloner Smith 53",
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV195978_dynmc",
+          "lastupdate": "2022-06-29T05:33:10-0400",
+          "technique": "Mezzotint",
+          "edition": null,
+          "description": null,
+          "title": "Miss Anne Day, afterwards Lady Fehoulet",
+          "colors": [
+            {
+              "color": "#191919",
+              "spectrum": "#1eb264",
+              "hue": "Grey",
+              "percent": 0.46540880503144655,
+              "css3": "#000000",
+              "__typename": "Color"
+            },
+            {
+              "color": "#e1c8af",
+              "spectrum": "#e9715f",
+              "hue": "Orange",
+              "percent": 0.16628930817610063,
+              "css3": "#f5deb3",
+              "__typename": "Color"
+            },
+            {
+              "color": "#644b32",
+              "spectrum": "#59ba4a",
+              "hue": "Brown",
+              "percent": 0.09742138364779875,
+              "css3": "#556b2f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8af96",
+              "spectrum": "#e66c64",
+              "hue": "Brown",
+              "percent": 0.06006289308176101,
+              "css3": "#d2b48c",
+              "__typename": "Color"
+            },
+            {
+              "color": "#e1e1c8",
+              "spectrum": "#e9715f",
+              "hue": "Green",
+              "percent": 0.057169811320754715,
+              "css3": "#dcdcdc",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d644b",
+              "spectrum": "#b25593",
+              "hue": "Yellow",
+              "percent": 0.05440251572327044,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#967d64",
+              "spectrum": "#b65590",
+              "hue": "Brown",
+              "percent": 0.050125786163522014,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#af967d",
+              "spectrum": "#c25687",
+              "hue": "Brown",
+              "percent": 0.04911949685534591,
+              "css3": "#bc8f8f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1760",
+          "department": "Department of Prints",
+          "dateend": 1760,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": null,
+              "gender": "male",
+              "displaydate": "c. 1729 - 1765",
+              "prefix": null,
+              "culture": "British",
+              "displayname": "James McArdell",
+              "alphasort": "McArdell, James",
+              "name": "James McArdell",
+              "personid": 32221,
+              "deathplace": null,
+              "__typename": "People"
+            },
+            {
+              "role": "Artist after",
+              "birthplace": "Plympton, England",
+              "gender": "male",
+              "displaydate": "1723 - 1792",
+              "prefix": "After",
+              "culture": "British",
+              "displayname": "After Sir Joshua Reynolds",
+              "alphasort": "Reynolds, Joshua Sir",
+              "name": "Sir Joshua Reynolds",
+              "personid": 28265,
+              "deathplace": "London, England",
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/260688",
+          "century": "18th century",
+          "datebegin": 1760,
+          "culture": "British",
+          "dimensions": "plate: 32.5 × 22.5 cm (12 13/16 × 8 7/8 in.)\r\nsheet: 33.1 × 23 cm (13 1/16 × 9 1/16 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Deknatel Purchase Fund",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 8,
+          "rank": 222269,
+          "id": 265666,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2017-07-19",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 477567,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CS6 (Macintosh);",
+              "renditionnumber": "764261",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764261",
+              "alttext": null,
+              "width": 2550,
+              "publiccaption": null,
+              "height": 1929,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": "Delteil 56; Clément 57; Brugerolles E.54",
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764261",
+          "lastupdate": "2022-06-29T05:33:19-0400",
+          "technique": "Lithograph",
+          "edition": null,
+          "description": null,
+          "title": "Arab Horse",
+          "colors": [
+            {
+              "color": "#e1e1c8",
+              "spectrum": "#e9715f",
+              "hue": "Green",
+              "percent": 0.7200589970501475,
+              "css3": "#dcdcdc",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8c8af",
+              "spectrum": "#b55592",
+              "hue": "Green",
+              "percent": 0.07498525073746312,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#afaf96",
+              "spectrum": "#8e5ea7",
+              "hue": "Green",
+              "percent": 0.0552212389380531,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#969696",
+              "spectrum": "#8761aa",
+              "hue": "Grey",
+              "percent": 0.047315634218289084,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#646464",
+              "spectrum": "#7866ad",
+              "hue": "Grey",
+              "percent": 0.0391740412979351,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d7d7d",
+              "spectrum": "#8362aa",
+              "hue": "Grey",
+              "percent": 0.03463126843657817,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b4b4b",
+              "spectrum": "#3db657",
+              "hue": "Grey",
+              "percent": 0.024837758112094394,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#323232",
+              "spectrum": "#2eb45d",
+              "hue": "Grey",
+              "percent": 0.0037758112094395282,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1822",
+          "department": "Department of Prints",
+          "dateend": 1822,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": "Rouen",
+              "gender": "male",
+              "displaydate": "1791 - 1824",
+              "prefix": null,
+              "culture": "French",
+              "displayname": "Théodore Géricault",
+              "alphasort": "Géricault, Théodore",
+              "name": "Théodore Géricault",
+              "personid": 21958,
+              "deathplace": "Paris",
+              "__typename": "People"
+            },
+            {
+              "role": "Printer",
+              "birthplace": "Mulhouse, France",
+              "gender": "male",
+              "displaydate": "1788-1839",
+              "prefix": "Printed by",
+              "culture": "German",
+              "displayname": "Printed by Gottfried Engelmann",
+              "alphasort": "Engelmann, Gottfried",
+              "name": "Gottfried Engelmann",
+              "personid": 33882,
+              "deathplace": "Mulhouse, France",
+              "__typename": "People"
+            },
+            {
+              "role": "Publisher",
+              "birthplace": null,
+              "gender": "unknown",
+              "displaydate": "active 1815 - 1871",
+              "prefix": "Published by",
+              "culture": "French",
+              "displayname": "Published by Gihaut Frères",
+              "alphasort": "Gihaut Frères",
+              "name": "Gihaut Frères",
+              "personid": 57301,
+              "deathplace": null,
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/265666",
+          "century": "19th century",
+          "datebegin": 1822,
+          "culture": "French",
+          "dimensions": "chine collé: 20.7 × 25.9 cm (8 1/8 × 10 3/16 in.)\r\nsheet: 25.7 × 34 cm (10 1/8 × 13 3/8 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Deknatel Purchase Fund",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 8,
+          "rank": 222268,
+          "id": 265628,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2017-07-19",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 477562,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CS6 (Macintosh);",
+              "renditionnumber": "764256",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764256",
+              "alttext": null,
+              "width": 2550,
+              "publiccaption": null,
+              "height": 1860,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": "Delteil 55; Clément 56; Brugerolles E.53",
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764256",
+          "lastupdate": "2022-06-29T05:33:19-0400",
+          "technique": "Lithograph",
+          "edition": null,
+          "description": null,
+          "title": "Flemish Horses",
+          "colors": [
+            {
+              "color": "#e1e1e1",
+              "spectrum": "#955ba5",
+              "hue": "Grey",
+              "percent": 0.7001834862385321,
+              "css3": "#dcdcdc",
+              "__typename": "Color"
+            },
+            {
+              "color": "#afafaf",
+              "spectrum": "#8c5fa8",
+              "hue": "Grey",
+              "percent": 0.07480122324159022,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#969696",
+              "spectrum": "#8761aa",
+              "hue": "Grey",
+              "percent": 0.06048929663608563,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d7d7d",
+              "spectrum": "#8362aa",
+              "hue": "Grey",
+              "percent": 0.04440366972477064,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8c8c8",
+              "spectrum": "#8c5fa8",
+              "hue": "Grey",
+              "percent": 0.04195718654434251,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#646464",
+              "spectrum": "#7866ad",
+              "hue": "Grey",
+              "percent": 0.03902140672782874,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b4b4b",
+              "spectrum": "#3db657",
+              "hue": "Grey",
+              "percent": 0.03529051987767584,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#323232",
+              "spectrum": "#2eb45d",
+              "hue": "Grey",
+              "percent": 0.003853211009174312,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1822",
+          "department": "Department of Prints",
+          "dateend": 1822,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": "Rouen",
+              "gender": "male",
+              "displaydate": "1791 - 1824",
+              "prefix": null,
+              "culture": "French",
+              "displayname": "Théodore Géricault",
+              "alphasort": "Géricault, Théodore",
+              "name": "Théodore Géricault",
+              "personid": 21958,
+              "deathplace": "Paris",
+              "__typename": "People"
+            },
+            {
+              "role": "Printer",
+              "birthplace": "Mulhouse, France",
+              "gender": "male",
+              "displaydate": "1788-1839",
+              "prefix": "Printed by",
+              "culture": "German",
+              "displayname": "Printed by Gottfried Engelmann",
+              "alphasort": "Engelmann, Gottfried",
+              "name": "Gottfried Engelmann",
+              "personid": 33882,
+              "deathplace": "Mulhouse, France",
+              "__typename": "People"
+            },
+            {
+              "role": "Publisher",
+              "birthplace": null,
+              "gender": "unknown",
+              "displaydate": "active 1815 - 1871",
+              "prefix": "Published by",
+              "culture": "French",
+              "displayname": "Published by Gihaut Frères",
+              "alphasort": "Gihaut Frères",
+              "name": "Gihaut Frères",
+              "personid": 57301,
+              "deathplace": null,
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/265628",
+          "century": "19th century",
+          "datebegin": 1822,
+          "culture": "French",
+          "dimensions": "chine collé: 21.5 × 25.5 cm (8 7/16 × 10 1/16 in.)\r\nsheet: 25.3 × 34.6 cm (9 15/16 × 13 5/8 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Deknatel Purchase Fund",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 8,
+          "rank": 222262,
+          "id": 265748,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2017-07-19",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 477569,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": "Make:Hasselblad;Model:Hasselblad H5D-50c MS;Orientation:1;Software:Adobe Photoshop CS6 (Macintosh);",
+              "renditionnumber": "764263",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764263",
+              "alttext": null,
+              "width": 2550,
+              "publiccaption": null,
+              "height": 1900,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": "Delteil 49; Clément 50; Brugerolles E.47",
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:764263",
+          "lastupdate": "2022-06-29T05:33:19-0400",
+          "technique": "Lithograph",
+          "edition": null,
+          "description": null,
+          "title": "Caux Horse",
+          "colors": [
+            {
+              "color": "#e1e1e1",
+              "spectrum": "#955ba5",
+              "hue": "Grey",
+              "percent": 0.7161561561561561,
+              "css3": "#dcdcdc",
+              "__typename": "Color"
+            },
+            {
+              "color": "#c8c8c8",
+              "spectrum": "#8c5fa8",
+              "hue": "Grey",
+              "percent": 0.06252252252252252,
+              "css3": "#c0c0c0",
+              "__typename": "Color"
+            },
+            {
+              "color": "#969696",
+              "spectrum": "#8761aa",
+              "hue": "Grey",
+              "percent": 0.05921921921921922,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d7d7d",
+              "spectrum": "#8362aa",
+              "hue": "Grey",
+              "percent": 0.05237237237237237,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#afafaf",
+              "spectrum": "#8c5fa8",
+              "hue": "Grey",
+              "percent": 0.045825825825825825,
+              "css3": "#a9a9a9",
+              "__typename": "Color"
+            },
+            {
+              "color": "#646464",
+              "spectrum": "#7866ad",
+              "hue": "Grey",
+              "percent": 0.03981981981981982,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#4b4b4b",
+              "spectrum": "#3db657",
+              "hue": "Grey",
+              "percent": 0.02156156156156156,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#323232",
+              "spectrum": "#2eb45d",
+              "hue": "Grey",
+              "percent": 0.0025225225225225223,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1822",
+          "department": "Department of Prints",
+          "dateend": 1822,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": "Rouen",
+              "gender": "male",
+              "displaydate": "1791 - 1824",
+              "prefix": null,
+              "culture": "French",
+              "displayname": "Théodore Géricault",
+              "alphasort": "Géricault, Théodore",
+              "name": "Théodore Géricault",
+              "personid": 21958,
+              "deathplace": "Paris",
+              "__typename": "People"
+            },
+            {
+              "role": "Printer",
+              "birthplace": "Mulhouse, France",
+              "gender": "male",
+              "displaydate": "1788-1839",
+              "prefix": "Printed by",
+              "culture": "German",
+              "displayname": "Printed by Gottfried Engelmann",
+              "alphasort": "Engelmann, Gottfried",
+              "name": "Gottfried Engelmann",
+              "personid": 33882,
+              "deathplace": "Mulhouse, France",
+              "__typename": "People"
+            },
+            {
+              "role": "Publisher",
+              "birthplace": null,
+              "gender": "unknown",
+              "displaydate": "active 1815 - 1871",
+              "prefix": "Published by",
+              "culture": "French",
+              "displayname": "Published by Gihaut Frères",
+              "alphasort": "Gihaut Frères",
+              "name": "Gihaut Frères",
+              "personid": 57301,
+              "deathplace": null,
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/265748",
+          "century": "19th century",
+          "datebegin": 1822,
+          "culture": "French",
+          "dimensions": "chine collé: 21.4 × 25.4 cm (8 7/16 × 10 in.)\r\nsheet: 26.1 × 34.9 cm (10 1/4 × 13 3/4 in.)",
+          "__typename": "Print"
+        },
+        {
+          "copyright": null,
+          "creditline": "Harvard Art Museums/Fogg Museum, Gift of Kenneth J. Conant in memory of Georges Gaillard",
+          "division": "European and American Art",
+          "contact": "am_europeanamerican@harvard.edu",
+          "colorcount": 6,
+          "rank": 221477,
+          "id": 264875,
+          "verificationleveldescription": "Best. Object is extensively researched, well described and information is vetted",
+          "images": [
+            {
+              "date": "2006-03-10",
+              "copyright": "President and Fellows of Harvard College",
+              "imageid": 73035,
+              "format": "image/jpeg",
+              "description": null,
+              "technique": null,
+              "renditionnumber": "INV038745",
+              "baseimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV038745_dynmc",
+              "alttext": null,
+              "width": 1024,
+              "publiccaption": null,
+              "height": 665,
+              "__typename": "Image"
+            }
+          ],
+          "imagecount": 1,
+          "standardreferencenumber": null,
+          "classification": "Prints",
+          "primaryimageurl": "https://nrs.harvard.edu/urn-3:HUAM:INV038745_dynmc",
+          "lastupdate": "2022-06-29T05:33:17-0400",
+          "technique": "Engraving",
+          "edition": null,
+          "description": null,
+          "title": "View of the Town of Cluny near the Levée bridge",
+          "colors": [
+            {
+              "color": "#c8af96",
+              "spectrum": "#e66c64",
+              "hue": "Brown",
+              "percent": 0.526872852233677,
+              "css3": "#d2b48c",
+              "__typename": "Color"
+            },
+            {
+              "color": "#af967d",
+              "spectrum": "#c25687",
+              "hue": "Brown",
+              "percent": 0.18151202749140893,
+              "css3": "#bc8f8f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#967d64",
+              "spectrum": "#b65590",
+              "hue": "Brown",
+              "percent": 0.128659793814433,
+              "css3": "#808080",
+              "__typename": "Color"
+            },
+            {
+              "color": "#7d644b",
+              "spectrum": "#b25593",
+              "hue": "Yellow",
+              "percent": 0.07560137457044673,
+              "css3": "#696969",
+              "__typename": "Color"
+            },
+            {
+              "color": "#644b32",
+              "spectrum": "#59ba4a",
+              "hue": "Brown",
+              "percent": 0.06054982817869416,
+              "css3": "#556b2f",
+              "__typename": "Color"
+            },
+            {
+              "color": "#323219",
+              "spectrum": "#3db657",
+              "hue": "Brown",
+              "percent": 0.026804123711340205,
+              "css3": "#2f4f4f",
+              "__typename": "Color"
+            }
+          ],
+          "dated": "1781",
+          "department": "Department of Prints",
+          "dateend": 1781,
+          "people": [
+            {
+              "role": "Artist",
+              "birthplace": null,
+              "gender": "unknown",
+              "displaydate": null,
+              "prefix": null,
+              "culture": null,
+              "displayname": "Unidentified Artist",
+              "alphasort": "Unidentified Artist",
+              "name": "Unidentified Artist",
+              "personid": 34147,
+              "deathplace": null,
+              "__typename": "People"
+            },
+            {
+              "role": "Artist",
+              "birthplace": null,
+              "gender": "male",
+              "displaydate": "1741 - 1811",
+              "prefix": "Under the direction of",
+              "culture": "French",
+              "displayname": "Under the direction of Louis Joseph Masquelier",
+              "alphasort": "Masquelier, Louis Joseph",
+              "name": "Louis Joseph Masquelier",
+              "personid": 32514,
+              "deathplace": null,
+              "__typename": "People"
+            },
+            {
+              "role": "Artist after",
+              "birthplace": "Dijon, France",
+              "gender": "male",
+              "displaydate": "1716 - c. 1803",
+              "prefix": "After",
+              "culture": "French",
+              "displayname": "After Jean-Baptiste Lallemand",
+              "alphasort": "Lallemand, Jean-Baptiste",
+              "name": "Jean-Baptiste Lallemand",
+              "personid": 32287,
+              "deathplace": "Paris, France",
+              "__typename": "People"
+            }
+          ],
+          "url": "https://www.harvardartmuseums.org/collections/object/264875",
+          "century": "18th century",
+          "datebegin": 1781,
+          "culture": "French",
+          "dimensions": "Image: 21.2 × 35 cm (8 3/8 × 13 3/4 in.)\r\nPlate: 24.5 × 36.6 cm (9 5/8 × 14 7/16 in.)\r\nSheet: 32.5 × 50.1 cm (12 13/16 × 19 3/4 in.)",
+          "__typename": "Print"
+        }
+      ],
+      "__typename": "Prints"
+    }
+  }
+}

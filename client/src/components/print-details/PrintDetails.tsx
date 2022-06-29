@@ -14,7 +14,7 @@ export const PrintDetails = ({ print } : PrintsProps) => {
       <div className={styles.frame}>
         <img className={styles.image} src={print.primaryimageurl ?? undefined} alt={print.title ?? undefined} />
       </div>
-      <div className={styles.detailsContainer}>
+      <div className={styles.detailsContainer} data-testid='print-details'>
         <h1>{print.title}</h1>
         <h2>{authors}</h2>
         <hr />
